@@ -1,9 +1,8 @@
-import turtle
+import turtle as t
 
 
-t = turtle
-T = turtle.Turtle()
-TS = turtle.Screen()
+T = t.Turtle()
+TS = t.Screen()
 
 TS.bgcolor("black")
 T.pensize(1)
@@ -24,3 +23,4 @@ t.done()
 ## change the T.circle # it's a size of a circle
 ## change some colors #! note that in this case you should have 6 colors
 ## and also the speed, pensize, bgcolor
+## just simplified, tested on Fedora 37 with python3.11.1
